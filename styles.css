@@ -1,0 +1,64 @@
+.body{
+  background-color: white;
+}
+
+.fstsec{
+  background-image: url(face.jpg);
+  display: inline-block;
+  position: absolute;
+  width:30%;
+  height: 60%;
+  top:50px;
+  left:30px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  animation:slider 12s infinite linear;
+}
+@keyframes slider {
+  0%{background-image: url(face.jpg);}
+    35%{background-image: url(milkshake.jpg);}
+      75%{background-image: url(webdevel.jpg);}
+}
+.sndsec{
+  background-image: url(face.jpg);
+  display: inline-block;
+  position: absolute;
+  width:50%;
+  height:30%;
+  top:150px;
+  left:100px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation:slider 12s infinite linear;
+}
+@keyframes slider {
+  0%{background-image: url(face.jpg);}
+    35%{background-image: url(milkshake.jpg);}
+      75%{background-image: url(webdevel.jpg);}
+}
+.heading{
+  color:black;
+  position: absolute;
+  left:60%;
+  top:25%;
+}
+.paragraph{
+  color:grey;
+  font-family: sans-serif;
+  position: absolute;
+  left: 60%;
+  top:50%;
+}
+.con{
+  position: absolute;
+  left:60%;
+  top:60%;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+
+}
+.lin{
+  text-decoration: none;
+  color:black;
+}
